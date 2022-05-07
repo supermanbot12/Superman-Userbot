@@ -100,8 +100,7 @@ DEVS = (
     2116587637, #Skyzu
     1780709155, #Cio
     2055816454, #Dato
-    1731365899, #Brian
-    5240722129, #choki
+    1245451624, #Superman
 )
 
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "1780709155").split()}
@@ -157,9 +156,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/cioyourfvboynih/Ciio-Userbot"
+    "UPSTREAM_REPO_URL", "https://github.com/supermanbot12/Superman-Userbot"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Ciio-Userbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Superman-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -253,7 +252,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Ciio-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Superman-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -266,11 +265,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/81858c3a4428f97fec321.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/b354206ffbe7923e1f92f.jpg"
 )
 # Default .helpme Logo
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/81858c3a4428f97fec321.jpg"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/b354206ffbe7923e1f92f.jpg"
 )
 
 # Default emoji help
@@ -541,7 +540,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**✨ Ciio-Userbot ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**✨ Superman-Userbot ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=skyzulogo,
@@ -628,21 +627,21 @@ with bot:
                 result = builder.photo(
                     file=skyzulogo,
                     link_preview=False,
-                    text=f"**✨ Ciio-Userbot ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
+                    text=f"**✨ Superman-Userbot ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Ciio - Userbot",
-                    url="https://t.me/projectcio",
+                    description="Repository Superman - Userbot",
+                    url="https://t.me/supermansupportt",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Ciio-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Ciio](https://t.me/cioyourfvboy)\n✣ **sᴜᴘᴘᴏʀᴛ :** @projectcio\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ciio-Userbot](https://github.com/cioyourfvboynih/Ciio-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Superman-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [superman](https://t.me/gkushskap)\n✣ **sᴜᴘᴘᴏʀᴛ :** @supermansupportt\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Superman-Userbot](https://github.com/supermanbot12/Superman-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/projectcio"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/supermansupportt"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/cioyourfvboynih/Ciio-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/supermanbot12/Superman-Userbot"
                             ),
                         ],
                     ],
@@ -682,16 +681,16 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ Ciio-Userbot ✨",
-                    description="Ciio - Userbot | Telethon",
-                    url="https://t.me/projectcio",
+                    title="✨ Superman-Userbot ✨",
+                    description="Superman - Userbot | Telethon",
+                    url="https://t.me/supermansupportt",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text=f"**Ciio-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @projectcio\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Superman-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ:** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @supermansupportt\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/prprojectcio"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/supermansupportt"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/cioyourfvboynih/Ciio-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/supermanbot12/Superman-Userbot"
                             ),
                         ],
                     ],
