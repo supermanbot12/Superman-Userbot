@@ -34,6 +34,7 @@ GCAST_BLACKLIST = [
     -1001688172956,  # KekinianSupoort
     -1001552721588,  # projectcio
     -1001578091827,  # PrimeSupportGroup
+    -1001635998973,  # supermansupportt
 ]
 
 
