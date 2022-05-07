@@ -94,7 +94,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡ Ciio-UserBot Repo](https://github.com/cioyourfvboynih/Ciio-Userbot/blob/Ciio-UserBot/README.md)"
+        "\n[⚡ Superman-UserBot Repo](https://github.com/supermanbot12/Superman-Userbot/blob/Superman-UserBot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)"
     )
@@ -119,10 +119,10 @@ async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
         "**Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ**\n"
-        "𝗥𝗲𝗽𝗼 𝗕𝘆 𝗖𝗶𝗶𝗼-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 🇮🇩\n"
-        "╰⎆ [ʀᴇᴘᴏ​](https://github.com/cioyourfvboynih/Ciio-Userbot)\n"
-        "┌❏  **Oᴡɴᴇʀ ʀᴇᴘᴏ​** ⎆ [ᴄɪᴏ̸](t.me/cioyourfvboy)\n"
-        "┌❏  **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/projectcio)\n"
+        "𝗥𝗲𝗽𝗼 𝗕𝘆 𝗦𝘂𝗽𝗲𝗿𝗺𝗮𝗻-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 🇮🇩\n"
+        "╰⎆ [ʀᴇᴘᴏ​](https://github.com/supermanbot12/Superman-Userbot)\n"
+        "┌❏  **Oᴡɴᴇʀ ʀᴇᴘᴏ​** ⎆ [sᴜᴘᴇʀᴍᴀɴ](t.me/gkushskap)\n"
+        "┌❏  **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/supermansupportt)\n"
     )
 
 
