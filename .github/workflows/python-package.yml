@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ Ciio-Userbot ]
+    branches: [ Superman-Userbot ]
   pull_request:
-    branches: [ Ciio-Userbot ]
+    branches: [ Superman-Userbot ]
 
 jobs:
   build:
