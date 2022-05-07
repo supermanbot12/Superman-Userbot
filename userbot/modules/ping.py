@@ -20,12 +20,12 @@ from userbot.events import register
 from userbot.utils import edit_or_reply, skyzu_cmd
 
 absen = [
-    "**Eh ada Cio**",
-    "**Hadir Cio ganteng** 🥵",
+    "**Eh ada Superman**",
+    "**Hadir Superman ganteng** 🥵",
     "**Hadir bro Cio** 😎",
-    "**Hadir kak Cio** 😉",
+    "**Hadir kak Superman** 😉",
     "**Hadir bang Cio** 😁",
-    "**Hadir Cio maap telat** 🥺",
+    "**Hadir Superman maap telat** 🥺",
 ]
 
 roas = [
