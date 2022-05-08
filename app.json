@@ -1,7 +1,7 @@
 {
   "name": "⚡Superman-userbot⚡",
   "description": "🚫Superman-Userbot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/81858c3a4428f97fec321.jpg",
+  "logo": "https://telegra.ph/file/b354206ffbe7923e1f92f.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @cioyourfvboy di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @gkushskap di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
