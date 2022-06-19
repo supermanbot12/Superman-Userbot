@@ -100,7 +100,3 @@ wand
 wordcloud
 youtube-search-python
 youtube-dl
-youtube_dl
-youtube_search 
-youtube-search-python==1.4.9
-zipfile38
